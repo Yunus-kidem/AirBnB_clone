@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the first tasks of the AirBnB clone project for ALX(https://www.alxafrica.com/software/).
+This repository contains the first tasks of the AirBnB clone project for [ALX](https://www.alxafrica.com/software/).
 During this first part of the project we had to::
 - Put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances.
 - Create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
@@ -20,7 +20,7 @@ During this first part of the project we had to::
 It contains a command line interpreter limited to a specific use-case. In our case, we want to be able to manage the objects of our project using this console.
 
 - **models**
-This folder contains all the Class modules of the project, and a folder called engine. Click on [models](https://github.com/williamzborja/AirBnB_clone/tree/main/models) to know more about it.
+This folder contains all the Class modules of the project, and a folder called engine. 
 
 - **tests**
 This folder contains all the UNITTEST of every module stored in the models folder and the TEST of the console.py file.

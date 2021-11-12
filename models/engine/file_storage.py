@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """This module contains a base class called 'FileStorage' that defines
-the process the serializes and deserializes to JSON
+the process that serializes and deserializes to JSON
 
-file_storage module manage data store in file.json
-and manage CRUD operation
+file_storage module manages data stored in file.json
+and manages CRUD operation
 """
 import json
 import importlib
@@ -11,7 +11,7 @@ import re
 
 
 class FileStorage:
-    """
+    """ An abstracted file storage engine
     Private class attributes:
         __file_path: string - path to the JSON file (ex: file.json)
         __objects: dictionary - empty but will store all objects by

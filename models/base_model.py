@@ -16,7 +16,11 @@ class BaseModel:
     """
 
     def __init__(self, *args, **kwargs):
-        """ constructor validate kwargs """
+        """ constructor for initialization of BaseModel and  validate kwargs
+        Args:
+             *args(any): unused
+             **kwargs(dict):key/value pairs
+        """
         if len(kwargs) == 0:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
@@ -45,9 +49,8 @@ class BaseModel:
         my_dict['updated_at'] = self.updated_at
         my_dict['created_at'] = self.created_at
 
-        to_print = '[{}] ({}) {}'.format(self.__class__.__name__, self.id,
+        return '[{}] ({}) {}'.format(self.__class__.__name__, self.id,
                                          my_dict)
-        return to_print
 
     def save(self):
         """updates the public instance attribute updated_at with the

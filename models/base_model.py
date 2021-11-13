@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''This module contains a base class called 'BaseModel'that defines all common
 attributes/methods for other classes.
 '''

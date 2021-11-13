@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module contains a base class called 'FileStorage' that defines
 the process that serializes and deserializes to JSON
 
@@ -34,7 +34,7 @@ class FileStorage:
         return FileStorage.__objects
 
     def new(self, obj):
-        """Creates a new instance of an specific class and
+        """Creates a new instance of a specific class and
         saves it into the file storage
         """
         key_name = "{}.{}".format(obj.__class__.__name__, obj.id)

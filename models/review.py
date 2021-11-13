@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module contains a class called 'Review'that inherits from 'BaseModel'
 """
 from models.base_model import BaseModel

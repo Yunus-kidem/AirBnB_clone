@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module contains a base class called 'FileStorage' that defines
 the process that serializes and deserializes to JSON
 
